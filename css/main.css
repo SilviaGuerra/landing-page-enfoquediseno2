@@ -102,7 +102,12 @@ img{
   justify-content: center;
 }
 
-input{
+input, textarea{
   display: block;
   margin: 10px;
+  width: 500px;
+}
+
+input, textarea::placeholder{
+  font-size: 15px;
 }
