@@ -8,7 +8,7 @@
 nav{
   display: flex;
   position: fixed;
-  background: #fff;
+  background: #6C3580;
   margin: 0 auto;
   padding: 10px;
   width: 100%;
@@ -20,6 +20,7 @@ nav{
 a{
   text-decoration: none;
   font-size: 20px;
+  color: #fff;
   padding: 15px;
 }
 
