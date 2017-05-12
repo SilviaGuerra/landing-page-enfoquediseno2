@@ -1,96 +1,6 @@
-/**{
-  font-family: 'Sue Ellen Francisco', cursive;
-}*/
-
-/**{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}*/
-
-/**:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}*/
-
-/*body{
-  width: 1280px;
-}*/
-
-/*header{
-  display: flex;
-  position: fixed;
-  margin: 0 auto;
-  width: 100%;
-  font-size: 25px;
-}*/
-
-/*nav{
-  background: #fff;
-  width: 100%;
-  padding: 30px;
-}*/
-
-/*a{
-  list-style: none;
-  text-decoration: none;
-  padding: 90px;
-}*/
-
-/*a:hover{
-  color: #307B6C;
-  cursor: pointer;
-}*/
-
-/*h1, h2, h3{
-  text-align: center;
-}*/
-
-/*.header{
-  display: flex;
-  flex-direction: column;
-  width: 700px;
-}*/
-
-/*h1{
-  font-size: 50px;
-  color: #fff;
-  margin-top: -500px;
-}*/
-
-/*.babas{
-  width: 1280px;
-  height: 500px;
-  margin-top: 80px;
-}*/
-
-/*@media (min-width: 320px){
-  nav{
-    display: flex;
-    margin: auto;
-    width: 100%;
-    height: 50px;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-content: center;
-    font-size: 25px;
-  }
-
-  a{
-    list-style: none;
-    text-decoration: none;
-    padding: 15px;
-  }
-
-  a:hover{
-    color: #307B6C;
-    cursor: pointer;
-  }
-}*/
-
 *{
   box-sizing: border-box;
+  font-family: 'Sue Ellen Francisco', cursive;
   margin: 0;
   padding: 0;
 }
@@ -109,6 +19,7 @@ nav{
 
 a{
   text-decoration: none;
+  font-size: 20px;
   padding: 15px;
 }
 
@@ -123,8 +34,9 @@ a:hover{
   width: 100%;
 }
 
-h1, h2{
+h1, h2, h3{
   text-align: center;
+  font-size: 30px;
 }
 
 .babas{
@@ -134,16 +46,63 @@ h1, h2{
 }
 
 .articles{
-  display: block;
-  width: 100%;
+  height: 700px;
 }
 
-.letters{
+#info, #algo{
+  width: 100%;
+  padding: 20px 25px;
   display: flex;
-  flex-direction: row;
+  flex-flow: column wrap;
+  font-size: 20px;
+  width: 100%;
 }
 
 img{
   width: 300px;
   height: 200px;
+}
+
+.info{
+  display: inline;
+  margin-left: 320px;
+  margin-top: -200px;
+  text-align: justify;
+  text-size: 30px;
+  height: 100px;
+}
+
+#algo{
+  display:flex;
+  flex-flow: column wrap-reverse;
+  margin-top: 150px;
+}
+
+.algo{
+  display: inline;
+  margin-right: 350px;
+  margin-top: -200px;
+  text-align: justify;
+  text-size: 30px;
+  height: 50px;
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+  background: gray;
+}
+
+#form{
+  margin-top: 30px;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  display: block;
+  margin: 10px;
 }
