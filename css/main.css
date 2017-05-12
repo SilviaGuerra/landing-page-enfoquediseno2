@@ -111,3 +111,19 @@ input, textarea{
 input, textarea::placeholder{
   font-size: 15px;
 }
+
+button{
+  background:
+  font-size: 15px;
+  width: 70px;
+  margin-left: 440px;
+  padding: 5px;
+}
+
+footer{
+  margin-top: 20px;
+  font-size: 20px;
+  background: black;
+  color: #fff;
+  text-align: center;
+}
